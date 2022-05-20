@@ -79,3 +79,12 @@ button:hover {
     cursor: pointer;
     transform: translateY(-2px);
 }
+@media (max-width: 474px){
+    #gameboard{
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        color: #3e0249;
+    }
+}
